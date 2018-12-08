@@ -1,0 +1,211 @@
+   body{
+       background-image: url("https://image.ibb.co/jJjBs0/leaves.png");
+       margin-top: 0px;
+   }
+   h1{
+       background-color:#4aaaa5; 
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       color:white;
+       margin-left: 200px;
+       margin-top: -8px;
+       padding:31px;
+       float: left; 
+       font-weight: bold;
+       
+    }
+    header {
+        background-color:#fff;
+        border-bottom:2px solid #ccc;
+        width: 100%;
+        margin-top:0px;
+        height: 90px;
+    }
+    nav{
+        padding:0 20px;
+        color: #4aaaa5;
+        float: right;
+        margin-top: 50px;
+        margin-right:250px;
+    }
+    
+    article {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        margin-top: 50px;
+        margin-bottom:350px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 200px;
+        margin-right:250px;
+    }
+    .article-container{
+        width:auto;
+        padding: 0px 30px 30px 30px;
+
+    }
+    h2 {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 32px;
+        font-weight: bold;
+        color: #4aaaa5;
+        background-color: #fff;
+        border-bottom: 3px solid #ccc;
+        padding: 32px 0;
+    }
+    .article-content{
+        margin: 30px 0px;
+    }
+    img{
+        max-width:200px;
+        max-height:200px;
+        float: left;
+        padding: 10px;
+    }
+    .anchor{
+        text-decoration: none;
+        color: #777777;
+    }
+    .footer{
+        width: 100%;
+        padding: 20px;
+        background: #ccc;
+        text-align: center;
+        margin-bottom:0px;
+        border-top: 8px solid #4aaaa5;
+        position: fixed;
+        bottom: 0;
+        left:0;
+        color: #777777;
+    }
+   .form-control{
+       width: 600px;
+       height: 20px;
+       color: #777777;
+       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   }
+   h5{
+       color: #777777;
+       margin-bottom: 3px;
+   }
+   .submit{
+       background-color: #4aaaa5;
+       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+       padding: 5px 15px;
+       color: white;
+   }
+   .text-box{
+       height: 200px;
+       width: 600px;
+   }
+   .article-2{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    margin-bottom:200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 200px;
+    margin-right:250px;
+    height: 700px;
+    width: 960px;
+   }
+   .portfolio-container{
+       margin-left:20px;
+       margin-right:20px;
+   }
+   .image-container{
+       position: relative;
+   }
+   .third-image{
+       position:absolute;
+       top:175px;
+       left:0px
+   }
+   .fourth-image{
+    position:absolute;
+    top:175px;
+    left:170px;
+}
+    .fifth-image{
+    position:absolute;
+    top:345px;
+    left:0px;
+}
+    h5{
+        color:grey;
+    }
+
+    @media screen and (max-width:980px){
+        header{
+            width: 100%;
+        }
+        h1{
+            margin-left:1%;
+        }
+        nav{
+            margin-right:1%;
+        }
+        article{
+            margin-left:10%;
+        }
+        .article-2{
+            margin-left:10%;
+            width:600px;
+        }
+        .form-control{
+            Width: 400px
+        }
+        .text-box{
+            width:400px;
+        }
+    }
+
+    @media screen and (max-width:768px){
+        header{
+            width: 100%;
+        }
+        h1{
+            margin-left:2%;
+        }
+        nav{
+            margin-right:2%;
+        }
+        article{
+            margin-left:5%;
+            margin-right:5%
+        }
+        .article-2{
+            margin-left:5%;
+            width:600px;
+        }
+        .form-control{
+            Width: 500px
+        }
+        .text-box{
+            width:500px;
+        }
+    }
+
+    @media screen and (max-width:640px){
+        header{
+            width: 100%;
+        }
+        h1{
+            position:static;
+        }
+        nav{
+            position:static;
+        }
+        article{
+            margin-left:5%;
+            margin-right:5%
+        }
+        .article-2{
+            margin-left:5%;
+            width:500px;
+        }
+        .form-control{
+            Width: 200px
+        }
+        .text-box{
+            width:200px;
+        }
+    }
